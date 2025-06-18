@@ -1,0 +1,185 @@
+To **crack any DSA (Data Structures & Algorithms) coding interview**, you need to master common **coding patterns** (also called problem-solving techniques). These patterns help you recognize and solve problems efficiently, even if you haven’t seen them before.  
+
+Here are the **14 most essential coding patterns** to learn, along with their applications and example problems:  
+
+---
+
+### **1. Two Pointers**  
+**When to use:**  
+- Searching pairs in a **sorted array or linked list**.  
+- Problems with **in-place modifications** (e.g., removing duplicates).  
+
+**Examples:**  
+- Two Sum (sorted array)  
+- Remove Duplicates from Sorted Array  
+- Palindrome Check  
+
+---
+
+### **2. Sliding Window**  
+**When to use:**  
+- **Subarray/substring** problems with a fixed or dynamic window.  
+- Optimization problems (e.g., "Find the longest substring with at most K distinct characters").  
+
+**Examples:**  
+- Maximum Sum Subarray of Size K  
+- Longest Substring Without Repeating Characters  
+- Minimum Window Substring  
+
+---
+
+### **3. Fast & Slow Pointers (Floyd’s Cycle Detection)**  
+**When to use:**  
+- **Linked List** problems (cycle detection, middle node).  
+- Array problems where you need to detect cycles (e.g., Happy Number).  
+
+**Examples:**  
+- Detect Cycle in a Linked List  
+- Find the Middle of a Linked List  
+- Happy Number  
+
+---
+
+### **4. Binary Search**  
+**When to use:**  
+- **Sorted arrays** (or when you can sort them).  
+- Problems where **O(log N)** time is needed.  
+
+**Examples:**  
+- Search in Rotated Sorted Array  
+- Find Peak Element  
+- Median of Two Sorted Arrays  
+
+---
+
+### **5. Merge Intervals**  
+**When to use:**  
+- **Overlapping intervals** (merge, insert, find conflicts).  
+- Scheduling problems (e.g., meeting rooms).  
+
+**Examples:**  
+- Merge Intervals  
+- Insert Interval  
+- Meeting Rooms II  
+
+---
+
+### **6. Topological Sort (DFS/BFS - Kahn’s Algorithm)**  
+**When to use:**  
+- **Scheduling tasks** with dependencies.  
+- **Directed Acyclic Graphs (DAGs)** (e.g., course schedules).  
+
+**Examples:**  
+- Course Schedule (I & II)  
+- Alien Dictionary  
+
+---
+
+### **7. Backtracking (DFS + Pruning)**  
+**When to use:**  
+- **Combinatorial problems** (permutations, subsets).  
+- Problems requiring **exhaustive search** (e.g., Sudoku, N-Queens).  
+
+**Examples:**  
+- Subsets  
+- Permutations  
+- N-Queens  
+
+---
+
+### **8. Dynamic Programming (DP)**  
+**When to use:**  
+- **Optimization problems** (max/min solutions).  
+- Problems with **overlapping subproblems** (e.g., Fibonacci, Knapsack).  
+
+**Key DP Patterns:**  
+- **0/1 Knapsack**  
+- **Unbounded Knapsack**  
+- **Longest Common Subsequence (LCS)**  
+- **Matrix DP (Grid problems)**  
+
+**Examples:**  
+- Climbing Stairs  
+- Coin Change  
+- Longest Increasing Subsequence  
+
+---
+
+### **9. BFS (Level-Order Traversal)**  
+**When to use:**  
+- **Shortest path in unweighted graphs**.  
+- **Tree/Graph traversal level by level**.  
+
+**Examples:**  
+- Binary Tree Level Order Traversal  
+- Shortest Path in a Binary Matrix  
+- Word Ladder  
+
+---
+
+### **10. Trie (Prefix Tree)**  
+**When to use:**  
+- **Prefix-based searches** (autocomplete, dictionary).  
+- **Efficient string storage & retrieval**.  
+
+**Examples:**  
+- Implement Trie  
+- Word Search II  
+- Longest Word in Dictionary  
+
+---
+
+### **11. Monotonic Stack**  
+**When to use:**  
+- **Next Greater/Smaller Element** problems.  
+- **Histogram** problems (e.g., largest rectangle).  
+
+**Examples:**  
+- Daily Temperatures  
+- Largest Rectangle in Histogram  
+
+---
+
+### **12. Bit Manipulation**  
+**When to use:**  
+- **Optimizing space** (e.g., subsets using bitmask).  
+- **Low-level optimizations** (XOR, AND, OR tricks).  
+
+**Examples:**  
+- Single Number  
+- Subsets (Bitmask approach)  
+- Count Set Bits  
+
+---
+
+### **13. Union-Find (Disjoint Set)**  
+**When to use:**  
+- **Dynamic connectivity problems**.  
+- **Detecting cycles in undirected graphs**.  
+
+**Examples:**  
+- Number of Islands  
+- Redundant Connection  
+
+---
+
+### **14. Greedy Algorithms**  
+**When to use:**  
+- **Optimization problems** where **local optimal choices lead to a global solution**.  
+
+**Examples:**  
+- Fractional Knapsack  
+- Minimum Number of Arrows to Burst Balloons  
+
+---
+
+### **How to Practice?**  
+1. **Leetcode/Codeforces** – Filter problems by these patterns.  
+2. **Grind 75 (Blind 75 Extended)** – Covers all patterns.  
+3. **Neetcode.io** – Categorized by patterns.  
+
+### **Final Tip:**  
+- **Understand the pattern first**, then solve 3-5 problems per pattern.  
+- **Don’t memorize!** Learn how to **identify** the pattern in new problems.  
+
+Would you like a **customized study plan** based on your interview timeline? 🚀
